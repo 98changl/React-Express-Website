@@ -2,7 +2,7 @@ import GalleryItem from "./GalleryItem";
 
 function GalleryList(props) {
     return (
-        <ul>
+        <ul className='nopoints center'>
             {props.items.map(items => (
                 <GalleryItem 
                 key={items.id} 

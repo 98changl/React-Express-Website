@@ -5,7 +5,7 @@ import classes from './Navbar.module.css';
 function Navbar() {
     return (
         <header className={classes.header}>
-            <div className={classes.name}>Liman Chang</div>
+            <h1 className={classes.name}>Liman Chang</h1>
             <nav>
                 <ul className={classes.bar}>
                     <li className={classes.tab}>

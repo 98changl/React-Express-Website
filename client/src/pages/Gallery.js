@@ -1,7 +1,7 @@
-import profile from '../img/linked.jpg';
-import grad from '../img/grad.jpg';
-import pdficon from '../img/pdficon.png';
-import keylime from '../img/KeyLimanPie.jpg';
+import profile from '../media/linked.jpg';
+import grad from '../media/grad.jpg';
+import pdficon from '../media/pdficon.png';
+import keylime from '../media/KeyLimanPie.jpg';
 
 import GalleryList from '../components/gallery/GalleryList';
 
@@ -34,7 +34,8 @@ const images = [
 
 function Gallery() {
     return (
-        <div>
+        <div className='center'>
+            <h1>Gallery</h1>
             <GalleryList items={images} />
         </div>
     );

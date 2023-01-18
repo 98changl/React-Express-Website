@@ -1,15 +1,57 @@
 .image {
-	height: 20%;
-	width: 20%;
+	max-width: 500px;
+	max-height: 500px;
 	text-align: center;
-	border: 10px;
-	border-color: black;
+	border: 3px solid black;
 }
 
 .icon {
-	height: 10%;
-	width: 10%;
+	max-width: 250px;
+	max-height: 250px;
 	text-align: center;
+}
+
+.galleryitem {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.contactlist {
+	margin: 50px;
+}
+
+.center {
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex {
+	display: flex;
+}
+
+.left {
+	display: block;
+	margin-left: auto;
+}
+
+.right {
+	display: block;
+	margin-right: auto;
+	padding: 25px;
+}
+
+.text {
+	font: 16px Times, serif;
+}
+
+.nopoints {
+	list-style: none;
+	padding-left: 0;
 }
 
 .btn {

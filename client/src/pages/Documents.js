@@ -1,7 +1,7 @@
 import DocumentList from '../components/documents/DocumentList';
 
-import about from '../files/About Me.pdf';
-import resume from '../files/Resume.pdf';
+import about from '../media/About Me.pdf';
+import resume from '../media/Resume.pdf';
 
 const docs = [
     {
@@ -22,7 +22,8 @@ const docs = [
 
 function Documents() {
     return (
-        <div>
+        <div className='center'>
+            <h1 className='center'>Documents</h1>
             <DocumentList items={docs} />
         </div>
     );

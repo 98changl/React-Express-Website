@@ -2,7 +2,7 @@ import DocumentItem from "./DocumentItem";
 
 function DocumentList(props) {
     return (
-        <ul>
+        <ul className='nopoints center'>
             {props.items.map(items => (
                 <DocumentItem 
                 key={items.id} 

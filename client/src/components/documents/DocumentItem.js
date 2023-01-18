@@ -1,4 +1,4 @@
-import pdficon from '../../img/pdficon.png';
+import pdficon from '../../media/pdficon.png';
 
 function documentType(type) {
     if (type === 'pdf') {
@@ -12,7 +12,7 @@ function DocumentItem(props) {
             <a href={props.src} target='_blank' rel='noreferrer'>
                 <img className='icon' src={documentType(props.type)} alt={props.title}/>
             </a>
-            <p>{props.description}</p>
+            <p className='center'>{props.description}</p>
         </li>
     );
 }

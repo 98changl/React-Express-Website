@@ -5,6 +5,7 @@ function ContactItem(props) {
                 <h3>{props.title}</h3>
             </div>
             <div>
+                <p>{props.description}</p>
                 <a href={props.link} target='_blank' rel='noreferrer'>
                     {props.link}
                 </a>

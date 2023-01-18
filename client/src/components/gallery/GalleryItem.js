@@ -1,6 +1,6 @@
 function GalleryItem(props) {
     return (
-        <li>
+        <li className='galleryitem'>
             <div>
                 <a href={props.image} target='_blank' rel='noreferrer'>
                 <img
@@ -9,9 +9,7 @@ function GalleryItem(props) {
                     src={props.image}
                 />
                 </a>
-                <p>
-                    {props.description}
-                </p>
+                <p className='center'>{props.description}</p>
             </div>
         </li>
     )

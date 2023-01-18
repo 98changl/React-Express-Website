@@ -1,25 +1,23 @@
-import profile from '../img/linked.jpg';
+import profile from '../media/linked.jpg';
 
 function Home() {
     return (
-        <div>
+        <div className='center'>
             <div>
-                <p>
+                <p className='text'>
                 Welcome to my website! To access any of my projects, just click on the available links in the navigational bar above. 
                 The "Gallery" tab will redirect to a page of personal images. 
-                The "Files" tab will redirect to a page with a list of downloadable files. 
+                The "Documents" tab will redirect to a page with a list of downloadable files. 
                 The “Contact” tab will redirect to a page with a list of links associated with my profile.
                 </p>
             </div>
 
-            <p>
-                About Me
-            </p>
+            <h1>About Me</h1>
 
-            <div>
-                <img className='image' src={profile} alt='ProfilePicture' />
+            <div className='flex'>
+                <img className='image left' src={profile} alt='ProfilePicture' />
 
-                <p>
+                <p className='text right'>
                     In case the giant header with my name doesn’t suffice as a proper introduction, my name is Liman Chang. 
                     I am a graduate of Rutgers University-New Brunswick’s class of 2021. 
                     Studying in the School of Arts and Science, I received a Bachelor of Science in Computer Science with a grade point average of 3.155. 
@@ -33,7 +31,6 @@ function Home() {
                     My skills primarily focus on programming languages such as Python and Java but my skill set is not exclusively limited to them. 
                     While this website won’t necessarily provide the greatest insight into my professional abilities, 
                     I have referenced my online profiles, such as GitHub, which will hopefully give a clearer picture of my expertise.
-
                 </p>
             </div>
         </div>
