@@ -7,7 +7,9 @@ import Home from './pages/Home';
 import Gallery from './pages/Gallery';
 import Documents from './pages/Documents';
 import Contact from './pages/Contact';
+import Projects from './pages/Projects';
 import Test from './pages/Test';
+import Game from './pages/Game';
 
 function App() {
   return (
@@ -17,9 +19,11 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/gallery' element={<Gallery />} />
-        <Route path='/documents' element={<Documents />} />
+        {/* <Route path='/documents' element={<Documents />} /> */}
         <Route path='/contact' element={<Contact />} />
+        <Route path='/projects' element={<Projects/>} />
         <Route path='/test' element={<Test />} />
+        <Route path='/game' element={<Game />} />
       </Routes>
       </Wrapper>
     </div>

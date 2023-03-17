@@ -1,6 +1,11 @@
 .wrapper {
     background-color: lightgrey;
-	position: static;
+	position: relative;
+    margin-left: auto;
+	margin-right: auto;
+    padding: 2% 3%;
+    clear: none;
+    /*
     margin: auto;
     width: 85%;
 	clear: none;
@@ -11,4 +16,5 @@
 	display: flex;
     flex-flow: column;
     height: 100%;
+    */
 }

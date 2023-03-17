@@ -19,13 +19,13 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className={classes.tab}>
-                        <Link to='/documents' style={{textDecoration: 'none'}}>
-                            <p className={classes.text}>Documents</p>
+                        <Link to='/contact' style={{textDecoration: 'none'}}>
+                            <p className={classes.text}>Contact</p>
                         </Link>
                     </li>
                     <li className={classes.tab}>
-                        <Link to='/contact' style={{textDecoration: 'none'}}>
-                            <p className={classes.text}>Contact</p>
+                        <Link to='/projects' style={{textDecoration: 'none'}}>
+                            <p className={classes.text}>Projects</p>
                         </Link>
                     </li>
                 </ul>

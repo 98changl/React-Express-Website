@@ -32,7 +32,7 @@ const data = [
 function Contact() {
     return (
         <div>
-            <h1 className='center'>Contacts</h1>
+            <h1>Contact Information</h1>
             <ContactList items={data} />
         </div>
     );
