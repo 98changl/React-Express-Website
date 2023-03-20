@@ -8,10 +8,10 @@ function Modal(props) {
     }
 
     return (
-        <div>
-            <p>Are you sure?</p>
+        <div className='modal'>
+            <p>{props.text}</p>
             <button className='btn' onClick={yesHandler}>Yes</button>
-            <button className='btn' onClick={noHandler}>No</button>
+            <button className='btn btn-no' onClick={noHandler}>No</button>
         </div>
     );
 }

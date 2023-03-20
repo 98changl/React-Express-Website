@@ -1,8 +1,9 @@
 .wrapper {
     background-color: lightgrey;
-	position: relative;
+	position: flex;
     margin-left: auto;
 	margin-right: auto;
+    overflow: auto;
     padding: 2% 3%;
     clear: none;
     /*

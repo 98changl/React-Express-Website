@@ -4,25 +4,27 @@ import Modal from './Modal';
 import Backdrop from './ui/Backdrop';
 
 function Test(props) {
-  const [ modalIsOpen, setModalIsOpen ] = useState(false);
+  const [modalIsOpen, setModalIsOpen] = useState(false);
 
-  function buttonHandler() {
-    console.log('Clicked:', props.text);
+  function openModal() {
     setModalIsOpen(true);
   }
 
-  function closeModalHandler() {
+  function closeModal() {
     setModalIsOpen(false);
   }
 
   return (
     <div>
-      <h2>{props.text}</h2>
+      <h2>{props.title}</h2>
       <div>
-        <button onClick={buttonHandler}>Button</button>
+        <p>{props.text}</p>
+        <button className='btn' onClick={openModal}>
+          {props.button}
+        </button>
       </div>
-      { modalIsOpen && <Modal noHandler={closeModalHandler} yesHandler={closeModalHandler} /> }
-      { modalIsOpen ? <Backdrop onClick={closeModalHandler} /> : null }
+      {modalIsOpen && <Modal text={props.modalText} noHandler={closeModal} yesHandler={closeModal} />}
+      {modalIsOpen && <Backdrop onClick={closeModal} />}
     </div>
   );
 }

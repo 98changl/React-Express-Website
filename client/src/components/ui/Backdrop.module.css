@@ -1,4 +1,10 @@
 .backdrop {
-    background-color: lightgray;
-    fill: lightgrey;
+    background: darkgrey;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: .75;
+    z-index: 1;
 }

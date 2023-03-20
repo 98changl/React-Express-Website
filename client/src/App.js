@@ -16,15 +16,15 @@ function App() {
     <div>
       <Navbar />
       <Wrapper>
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/gallery' element={<Gallery />} />
-        {/* <Route path='/documents' element={<Documents />} /> */}
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/projects' element={<Projects/>} />
-        <Route path='/test' element={<Test />} />
-        <Route path='/game' element={<Game />} />
-      </Routes>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/gallery' element={<Gallery />} />
+          <Route path='/documents' element={<Documents />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/projects' element={<Projects />} />
+          <Route path='/test' element={<Test />} />
+          <Route path='/game' element={<Game />} />
+        </Routes>
       </Wrapper>
     </div>
   );

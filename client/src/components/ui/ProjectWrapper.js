@@ -3,14 +3,14 @@ import classes from './Wrapper.module.css';
 
 function ProjectWrapper(props) {
     return (
-        <div>
+        <div >
             <h1>Projects</h1>
             
-            <div className={classes.wrapper}>
+            <div className='flex center'>
                 <div className='content'>
                     <VerticalBar />
                 </div>
-                <div className='content'>
+                <div className='center'>
                     {props.children}
                 </div>
             </div>

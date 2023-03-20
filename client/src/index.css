@@ -3,17 +3,13 @@ html {
 	padding: 0 1%;
 }
 
-body {
-	background: blue;
-}
-
 h1 {
 	text-align: center;
 }
 
 .image {
+	width: 80%;
 	max-width: 500px;
-	max-height: 500px;
 	text-align: center;
 	border: 3px solid black;
 }
@@ -49,7 +45,6 @@ h1 {
 }
 
 .flex {
-	/*display: flex;*/
 	display: flex;
 	overflow: hidden;
 }
@@ -57,6 +52,10 @@ h1 {
 .content {
 	float: left;
 	padding-right: 2%;
+}
+
+.about {
+	width: 70%;
 }
 
 .left {
@@ -91,5 +90,32 @@ h1 {
 }
 
 .btn {
-    margin: 3rem;
+	background: green;
+	padding: 3% 8%;
+	color: black;
+	margin: 0 5%;
+	border-radius: 5px;
+	border: 3px solid black;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background: yellow;
+}
+
+.btn-no {
+	background: red;
+}
+
+.modal {
+	background-color: white;
+	position: fixed;
+	padding: 1%;
+	text-align: center;
+	width: 15%;
+	margin: auto;
+	border: 3px solid black;
+	right: calc(41%);
+	bottom: calc(50%);
+	z-index: 2;
 }

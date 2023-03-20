@@ -5,16 +5,10 @@ function Test() {
     return (
         <div>
             <ProjectWrapper>
-            <div className='center'>
-                <h1>Test Page</h1>
-                <div className='left'>
-                    <p>Test Page</p>
+                <div className='center'>
+                    <h1>Test Page</h1>
+                    <TestButton title='Modal' text='Opens a modal with a backdrop' button='Click me!' modalText='Modal is open' />
                 </div>
-            </div>
-            <div className='right'>
-                <TestButton text='Test'/>
-            </div>
-            
             </ProjectWrapper>
         </div>
     );
