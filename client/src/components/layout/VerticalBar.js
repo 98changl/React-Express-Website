@@ -7,8 +7,8 @@ function VerticalBar() {
         <nav>
             <ul className={classes.bar}>
                 <li className={classes.tab}>
-                    <Link to='/test' style={{ textDecoration: 'none' }}>
-                        <p className={classes.text}>Test</p>
+                    <Link to='/modal' style={{ textDecoration: 'none' }}>
+                        <p className={classes.text}>Modal</p>
                     </Link>
                 </li>
                 <li className={classes.tab}>

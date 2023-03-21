@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Modal from './Modal';
 import Backdrop from './ui/Backdrop';
 
-function Test(props) {
+function ModalWindow(props) {
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
   function openModal() {
@@ -12,6 +12,13 @@ function Test(props) {
 
   function closeModal() {
     setModalIsOpen(false);
+  }
+
+  function btnAction() {
+    if (props.func != null)
+      props.func();
+    else
+      closeModal();
   }
 
   return (
@@ -23,10 +30,10 @@ function Test(props) {
           {props.button}
         </button>
       </div>
-      {modalIsOpen && <Modal text={props.modalText} noHandler={closeModal} yesHandler={closeModal} />}
+      {modalIsOpen && <Modal text={props.modalText} noHandler={closeModal} yesHandler={btnAction} />}
       {modalIsOpen && <Backdrop onClick={closeModal} />}
     </div>
   );
 }
 
-export default Test;
+export default ModalWindow;
