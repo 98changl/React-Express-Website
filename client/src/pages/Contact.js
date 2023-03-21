@@ -1,5 +1,5 @@
 import ContactFetch from "../components/contact/ContactFetch";
-import ContactList  from "../components/contact/ContactList";
+import ContactList from "../components/contact/ContactList";
 
 const data = [
     {
@@ -10,7 +10,7 @@ const data = [
     {
         id: 'c2',
         title: 'LinkedIn',
-        link: 'https://www.linkedin.com/in/liman-chang-579315207/'
+        link: 'https://www.linkedin.com/in/limanchang/'
     },
     {
         id: 'c3',
