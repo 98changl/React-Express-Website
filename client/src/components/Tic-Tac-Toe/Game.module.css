@@ -1,0 +1,39 @@
+.square {
+    background: white;
+    border: 1px solid black;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    text-align: center;
+}
+
+.row {
+    font-family: Impact;
+}
+
+.status {
+    margin-bottom: 2%;
+    font-size: 18px;
+}
+
+.game {
+    background: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    min-width: 350px;
+    width: 100%;
+}
+
+.board {
+    padding: 1;
+    margin: 5%;
+}
+
+.info {
+    margin-left: 2%;
+    font-size: 18px;
+}

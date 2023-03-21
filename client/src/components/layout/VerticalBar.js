@@ -13,7 +13,7 @@ function VerticalBar() {
                 </li>
                 <li className={classes.tab}>
                     <Link to='/game' style={{ textDecoration: 'none' }}>
-                        <p className={classes.text}>WIP</p>
+                        <p className={classes.text}>Tic-Tac-Toe</p>
                     </Link>
                 </li>
             </ul>
