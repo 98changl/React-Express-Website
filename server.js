@@ -4,11 +4,25 @@ const app = express();
 
 app.set('port', process.env.PORT || 3001);
 
+app.get('/', (req, res) => {
+    console.log('app');
+    res.type('html').send(html);
+});
+
 app.get('/api', (req, res) => {
     console.log('api');
     const message = [{ test: 'Hello api' }];
     res.json(message);
 });
+
+const html = `
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello World!</title>
+    </head>
+</html>
+`
 
 /*
 app.get('/contacts', (req, res) => {
