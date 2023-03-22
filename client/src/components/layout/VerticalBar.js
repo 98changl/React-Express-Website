@@ -16,6 +16,11 @@ function VerticalBar() {
                         <p className={classes.text}>Tic-Tac-Toe</p>
                     </Link>
                 </li>
+                <li className={classes.tab}>
+                    <Link to='/apitest' style={{ textDecoration: 'none' }}>
+                        <p className={classes.text}>API</p>
+                    </Link>
+                </li>
             </ul>
         </nav>
     );

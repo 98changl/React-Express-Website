@@ -6,10 +6,11 @@ app.set('port', process.env.PORT || 3001);
 
 app.get('/api', (req, res) => {
     console.log('api');
-    const message = [{test: 'Hello api'}];
+    const message = [{ test: 'Hello api' }];
     res.json(message);
 });
 
+/*
 app.get('/contacts', (req, res) => {
     const data = [
         {
@@ -41,7 +42,6 @@ app.get('/contacts', (req, res) => {
     res.json(data);
 });
 
-/*
 app.get('/about', (req, res) => {
     res.sendFile(path.join(__dirname, '/files/About Me.pdf'));
 });

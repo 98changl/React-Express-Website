@@ -10,6 +10,7 @@ import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import Game from './pages/Game';
 import ModalTest from './pages/ModalTest';
+import GetAPI from './pages/GetAPI';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='/projects' element={<Projects />} />
           <Route path='/modal' element={<ModalTest />} />
           <Route path='/game' element={<Game />} />
+          <Route path='/apitest' element={<GetAPI />} />
         </Routes>
       </Wrapper>
     </div>
