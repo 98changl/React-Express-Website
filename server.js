@@ -1,6 +1,26 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
 //const path = require('path');
+
+var allowedOrigins = [
+    'http://localhost:3000',
+    'https://limanchang.onrender.com'
+];
+
+app.use(cors({
+    origin: function (origin, callback) {
+        if (!origin) return callback(null, true);
+
+        if (allowedOrigins.indexOf(origin) === -1) {
+            return callback(
+                new Error('Access denied'),
+                false
+            );
+        }
+        return callback(null, true);
+    }
+}));
 
 app.set('port', process.env.PORT || 3001);
 
