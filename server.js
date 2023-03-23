@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 
 app.get('/api', (req, res) => {
     console.log('api');
-    const message = [{ test: 'Hello api' }];
+    const message = [{ test: 'Hello world' }];
     res.json(message);
 });
 
@@ -21,6 +21,9 @@ const html = `
     <head>
         <title>Hello World!</title>
     </head>
+    <body>
+        <h1>Hello world</h1>
+    </body>
 </html>
 `
 
