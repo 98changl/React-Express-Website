@@ -40,12 +40,7 @@ function Game() {
     return (
         <ProjectWrapper>
             <div>
-                <div className='pad'>
-                    <p>Tutorial from React Dev:</p>
-                    <a href='https://react.dev/learn/tutorial-tic-tac-toe' target='_blank' rel='noreferrer'>
-                        https://react.dev/learn/tutorial-tic-tac-toe
-                    </a>
-                </div>
+                <h1>Tic-Tac-Toe</h1>
 
                 <div className={classes.game}>
                     <div className={classes.board}>

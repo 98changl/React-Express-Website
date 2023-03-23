@@ -20,15 +20,9 @@ const images = [
     },
     {
         id: 'i3',
-        title: 'Icon',
-        image: pdficon,
-        description: 'Custom PDF Icon for Website'
-    },
-    {
-        id: 'i4',
         title: 'KeyLime',
         image: keylime,
-        description: 'Photoshopped Key Lime Pie'
+        description: 'Key Liman Pie'
     }
 ];
 
