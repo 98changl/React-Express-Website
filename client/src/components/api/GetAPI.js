@@ -9,7 +9,7 @@ class GetAPI extends Component {
     }
 
     componentDidMount() {
-        fetch('/api')
+        fetch('https://limanchangnode.onrender.com/api')
             .then(res => res.json())
             .then(message => this.setState({ message },
                 () => console.log('Fetched:', message)));
