@@ -34,7 +34,7 @@ function Home() {
                         <br /><br />
                         My interest in coding and computer science stemmed from my time playing video games growing up. Game mechanics fascinated me, and I wanted to understand how they worked. What started as benign curiosity developed into an interest in programming in general, resulting in my career as a programmer. Besides programming, I often edit photos as a hobby just to be a little creative, have a laugh, and play around in Photoshop: you can find one such example under the "Gallery" tab.
                         <br /><br />
-                        My skills primarily involve programming languages such as Java and Python but I also have experience with C, JavaScript, and more. This website is to provide one place to find my online profiles like GitHub and any other relevant information you might need in considering my application. I created this website using the React JS framework and hosted on Amazon Web Service’s S3. Feel free to also check out the "Projects" tab which will hopefully give a clearer picture of my background and experience.
+                        My skills primarily involve programming languages such as Java and Python but I also have experience with C, JavaScript, and more. This website is to provide one place to find my online profiles like GitHub and any other relevant information you might need in considering my application. I created this website using the React JS framework and hosted it on Render. Feel free to also check out the "Projects" tab which will hopefully give a clearer picture of my background and experience.
                     </p>
                 </div>
             </div>
