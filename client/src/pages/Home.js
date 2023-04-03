@@ -1,3 +1,4 @@
+import ContactList from '../components/contact/ContactList';
 import DocumentList from '../components/documents/DocumentList';
 import profile from '../media/linked.jpg';
 import resume from '../media/Resume.pdf';
@@ -9,6 +10,34 @@ const docs = [
         type: 'pdf',
         description: 'Click on the icon to download.',
         src: resume
+    }
+];
+
+const contacts = [
+    {
+        id: 'c1',
+        title: 'Email Address',
+        description: '98changl@gmail.com'
+    },
+    {
+        id: 'c2',
+        title: 'LinkedIn',
+        link: 'https://www.linkedin.com/in/limanchang/'
+    },
+    {
+        id: 'c3',
+        title: 'GitHub',
+        link: 'https://github.com/98changl'
+    },
+    {
+        id: 'c4',
+        title: 'LeetCode',
+        link: 'https://leetcode.com/98changl/'
+    },
+    {
+        id: 'c5',
+        title: 'Vimeo',
+        link: 'https://vimeo.com/user134202152'
     }
 ];
 
@@ -40,9 +69,13 @@ function Home() {
             </div>
 
             <h1>Resume</h1>
-
             <div className='center'>
                 <DocumentList items={docs} />
+            </div>
+
+            <h1>Contact Information</h1>
+            <div className='center'>
+                <ContactList items={contacts} />
             </div>
         </div>
     );

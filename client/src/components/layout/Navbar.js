@@ -9,22 +9,22 @@ function Navbar() {
             <nav>
                 <ul className={classes.bar}>
                     <li className={classes.tab}>
-                        <Link to='/' style={{textDecoration: 'none'}}>
+                        <Link to='/' style={{ textDecoration: 'none' }}>
                             <p className={classes.text}>Home</p>
                         </Link>
                     </li>
                     <li className={classes.tab}>
-                        <Link to='/gallery' style={{textDecoration: 'none'}}>
+                        <Link to='/portfolio' style={{ textDecoration: 'none' }}>
+                            <p className={classes.text}>Portfolio</p>
+                        </Link>
+                    </li>
+                    <li className={classes.tab}>
+                        <Link to='/gallery' style={{ textDecoration: 'none' }}>
                             <p className={classes.text}>Gallery</p>
                         </Link>
                     </li>
                     <li className={classes.tab}>
-                        <Link to='/contact' style={{textDecoration: 'none'}}>
-                            <p className={classes.text}>Contact</p>
-                        </Link>
-                    </li>
-                    <li className={classes.tab}>
-                        <Link to='/projects' style={{textDecoration: 'none'}}>
+                        <Link to='/projects' style={{ textDecoration: 'none' }}>
                             <p className={classes.text}>Projects</p>
                         </Link>
                     </li>

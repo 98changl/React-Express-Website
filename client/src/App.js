@@ -11,6 +11,7 @@ import Projects from './pages/Projects';
 import Game from './pages/Game';
 import ModalTest from './pages/ModalTest';
 import GetAPI from './pages/GetAPI';
+import Portfolio from './pages/Portfolio';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path='/gallery' element={<Gallery />} />
           <Route path='/documents' element={<Documents />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/portfolio' element={<Portfolio />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/modal' element={<ModalTest />} />
           <Route path='/game' element={<Game />} />
