@@ -8,7 +8,7 @@ html {
 }
 
 .navbar-brand-custom {
-	font: 48px Times, serif;
+	font: 36px Times, serif;
 }
 
 .nav-link-custom {
@@ -46,23 +46,6 @@ html {
 
 .about {
 	width: 90%;
-}
-
-.left {
-	/*
-	display: block;
-	margin-left: auto;
-	*/
-	float: left;
-}
-
-.right {
-	/*
-	display: block;
-	margin-right: auto;
-	padding: 25px;
-	*/
-	float: right;
 }
 
 .pad {

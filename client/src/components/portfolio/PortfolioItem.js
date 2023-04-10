@@ -3,14 +3,16 @@ function PortfolioItem(props) {
         <li className='container-fluid mb-5'>
             <div className='grid text-center'>
 
-                <div className='row'>
+                <div className='row align-items-center'>
                     <div className='col-md-3'>
-                        <h2 className='subtitle text-center'>{props.title}</h2>
-                        <p className='text text-center'>{props.date}</p>
+                        <div className=''>
+                            <h2 className='subtitle text-center fw-bold'>{props.title}</h2>
+                            <p className='text text-center fst-italic'>{props.date}</p>
+                        </div>
                     </div>
                     <div className='col-md-4'>
-                        <p className='text text-center'>Technologies Used:</p>
-                        <p className='text text-center'>{props.skills}</p>
+                        <p className='text text-center fw-bold'>Technologies Used:</p>
+                        <p className='text text-center fst-italic'>{props.skills}</p>
                         <p className='text text-start'>{props.description}</p>
                     </div>
                     <div className='col-md-5'>

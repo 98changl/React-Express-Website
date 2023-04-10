@@ -4,21 +4,21 @@ import classes from './VerticalBar.module.css';
 
 function VerticalBar() {
     return (
-        <nav>
-            <ul className={classes.bar}>
-                <li className={classes.tab}>
-                    <Link to='/modal' style={{ textDecoration: 'none' }}>
-                        <p className={classes.text}>Modal</p>
+        <nav className='nav flex-column h-100'>
+            <ul className='nav flex-column border border-dark h-100'>
+                <li className='nav-item'>
+                    <Link className='nav-link' to='/modal'>
+                        <p className='text'>Modal</p>
                     </Link>
                 </li>
-                <li className={classes.tab}>
-                    <Link to='/game' style={{ textDecoration: 'none' }}>
-                        <p className={classes.text}>Tic-Tac-Toe</p>
+                <li className='nav-item'>
+                    <Link className='nav-link' to='/game'>
+                        <p className='text'>Tic-Tac-Toe</p>
                     </Link>
                 </li>
-                <li className={classes.tab}>
-                    <Link to='/apitest' style={{ textDecoration: 'none' }}>
-                        <p className={classes.text}>API</p>
+                <li className='nav-item'>
+                    <Link className='nav-link' to='/apitest'>
+                        <p className='text'>API</p>
                     </Link>
                 </li>
             </ul>

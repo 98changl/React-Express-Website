@@ -8,10 +8,10 @@ function ProjectWrapper(props) {
             <div className='container text-center'>
 
                 <div className='row row-cols-2'>
-                    <div className='col'>
+                    <div className='col-2'>
                         <VerticalBar />
                     </div>
-                    <div className='col'>
+                    <div className='col-8'>
                         {props.children}
                     </div>
                 </div>
