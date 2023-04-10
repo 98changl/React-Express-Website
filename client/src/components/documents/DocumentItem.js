@@ -10,9 +10,9 @@ function DocumentItem(props) {
     return (
         <li>
             <a href={props.src} target='_blank' rel='noreferrer'>
-                <img className='icon' src={documentType(props.type)} alt={props.title}/>
+                <img className='icon' src={documentType(props.type)} alt={props.title} />
             </a>
-            <p className='center'>{props.description}</p>
+            <p className='m-2 text'>{props.description}</p>
         </li>
     );
 }

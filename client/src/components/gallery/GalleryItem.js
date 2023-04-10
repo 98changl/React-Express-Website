@@ -1,15 +1,15 @@
 function GalleryItem(props) {
     return (
-        <li className='galleryitem'>
+        <li className='row mb-3'>
             <div>
                 <a href={props.image} target='_blank' rel='noreferrer'>
-                <img
-                    alt={props.title}
-                    className='image'
-                    src={props.image}
-                />
+                    <img
+                        alt={props.title}
+                        className='image'
+                        src={props.image}
+                    />
                 </a>
-                <p className='center'>{props.description}</p>
+                <p className='text text-center my-2'>{props.description}</p>
             </div>
         </li>
     )

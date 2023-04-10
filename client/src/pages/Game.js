@@ -40,7 +40,7 @@ function Game() {
     return (
         <ProjectWrapper>
             <div>
-                <h1>Tic-Tac-Toe</h1>
+                <h1 className='title text-center p-3'>Tic-Tac-Toe</h1>
 
                 <div className={classes.game}>
                     <div className={classes.board}>

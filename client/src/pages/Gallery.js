@@ -28,8 +28,8 @@ const images = [
 
 function Gallery() {
     return (
-        <div className='center'>
-            <h1>Gallery</h1>
+        <div>
+            <h1 className='title text-center p-3'>Gallery</h1>
             <GalleryList items={images} />
         </div>
     );

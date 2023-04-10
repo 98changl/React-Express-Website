@@ -5,9 +5,9 @@ function GetAPI() {
     return (
         <ProjectWrapper>
             <div>
-                <p>Retrieved: </p>
+                <p className='text'>Retrieved: </p>
                 <FetchAPI />
-                <p> from server.</p>
+                <p className='text'> from server.</p>
             </div>
         </ProjectWrapper>
     );

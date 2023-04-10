@@ -37,7 +37,7 @@ const items = [
 function Portfolio() {
     return (
         <div>
-            <h1>Portfolio</h1>
+            <h1 className='title text-center p-3'>Portfolio</h1>
             <PortfolioList items={items} />
         </div>
     );

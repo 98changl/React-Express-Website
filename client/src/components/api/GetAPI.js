@@ -17,7 +17,7 @@ class GetAPI extends Component {
 
     render() {
         return (
-            <p>{this.state.message.map(message => message.test)}</p>
+            <p className='text'>{this.state.message.map(message => message.test)}</p>
         );
     }
 }

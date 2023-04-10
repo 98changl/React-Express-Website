@@ -2,7 +2,7 @@ import PortfolioItem from "./PortfolioItem";
 
 function PortfolioList(props) {
     return (
-        <ul className='nopoints center'>
+        <ul className='nopoints'>
             {props.items.map(items => (
                 <PortfolioItem
                     key={items.id}

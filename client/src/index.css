@@ -3,15 +3,39 @@ html {
 	padding: 0 1%;
 }
 
-h1 {
+.grey {
+	background: lightgrey;
+}
+
+.navbar-brand-custom {
+	font: 48px Times, serif;
+}
+
+.nav-link-custom {
+	font: 24px Times, serif;
+	color: white;
 	text-align: center;
 }
 
+.title {
+	font: 36px Times, serif;
+}
+
+.subtitle {
+	font: 24px Times, serif;
+}
+
 .image {
-	width: 80%;
+	width: 100%;
 	max-width: 500px;
 	text-align: center;
 	border: 3px solid black;
+}
+
+.portfolioimg {
+	text-align: center;
+	width: 80%;
+	max-height: 250px;
 }
 
 .icon {
@@ -20,53 +44,8 @@ h1 {
 	text-align: center;
 }
 
-.portfolio {
-	width: 80%;
-	max-width: 400px;
-}
-
-.portfolioimg {
-	float: left;
-	width: 80%;
-	max-height: 250px;
-}
-
-.galleryitem {
-	padding-top: 25px;
-	padding-bottom: 25px;
-}
-
-.contactlist {
-	margin: 50px;
-}
-
-.center {
-	/*display: flex;
-	flex-direction: column;
-	margin-left: auto;
-	margin-right: auto;
-	width: 90%;
-	align-items: center;
-	justify-content: center;
-	*/
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-}
-
-.flex {
-	display: flex;
-	overflow: hidden;
-}
-
-.content {
-	float: left;
-	padding-right: 2%;
-}
-
 .about {
-	width: 70%;
+	width: 90%;
 }
 
 .left {
@@ -91,15 +70,18 @@ h1 {
 }
 
 .text {
-	text-align: start;
 	font: 16px Times, serif;
+}
+
+.about {
+	text-align: start;
 }
 
 .nopoints {
 	list-style: none;
 	padding-left: 0;
 }
-
+/*
 .btn {
 	background: green;
 	padding: 3% 8%;
@@ -130,3 +112,4 @@ h1 {
 	bottom: 50%;
 	z-index: 2;
 }
+*/
